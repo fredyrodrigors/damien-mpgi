@@ -8,7 +8,7 @@ Es un modelo estadístico basado en un algoritmo que es capaz de extraer informa
 
 `#SpoilerAlert!` Nuestro clasificador estará basado en la implementación del [algoritmo bayesiano ingenuo](https://es.wikipedia.org/wiki/Clasificador_bayesiano_ingenuo).
 
-Para este ejemplo, desarrollaremos e implementaremos un clasificador que etiquete automáticamente el sentido de unidades léxicas potencialmente ambiguas. Utilizaremos para ello la palabra «cara», y consideraremos dos sentidos disponibles: FACE y SIDE. Esta infromación y las definiciones para cada sentido se encuentran disponibles en este mini-diccionario. 
+Para este ejemplo, desarrollaremos e implementaremos un clasificador que etiquete automáticamente el sentido de unidades léxicas potencialmente ambiguas. Utilizaremos para ello la palabra «cara», y consideraremos dos sentidos disponibles: FACE y SIDE. Esta infromación y las definiciones para cada sentido se encuentran disponibles en este [mini-diccionario](cara-data/cara-minidir.csv). 
 
 ## Primer paso: tareas de preprocesamiento (parte 1)
 
