@@ -24,7 +24,7 @@ Vamos a ejecutar un cambio de tamaño de archivo, mediante la aplicación de una
 corpus > pre-process > file resizing > split (regex, \n)
 ````
 
-### 3. Extracción de etiquetas senseID
+### 3. Extracción de etiquetas ***senseID***
 
 Vamos a extraer desde el <a href="https://github.com/fredyrodrigors/damien-mpgi/blob/main/cara-data/cara-corpus.txt">corpus de «cara»</a> las etiquetas _senseID_, correspondientes a cada uno de los sentidos seleccionados para las palabras objetivo dentro de la colección de documentos. Esto nos permitirá identificar el sentido correspondiente para cada una de las instancias o cotextos en análisis. 
 
