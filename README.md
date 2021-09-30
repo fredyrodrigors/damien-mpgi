@@ -1,4 +1,4 @@
-# Aplicación de un sistema de procesamiento del lenguaje natural (o "cómo haremos un clasificador automático" 💪)
+# Implementación de un sistema de procesamiento del lenguaje natural (aka "cómo hacer un clasificador automático" 💪)
 
 Nuestra misión durante las próximas semanas será implementar un clasificador automático aplicando técnicas de PLN. Lo haremos sin requerir de un lenguaje de programación, pues el foco estará en el aprendizaje de las tareas que debemos realizar para pre-procesar, procesar, aplicar minería textual y evaluar nuestro sistema. 
 
