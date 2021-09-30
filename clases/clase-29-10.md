@@ -30,6 +30,6 @@ Vamos a extraer desde el <a href="https://github.com/fredyrodrigors/damien-mpgi/
 ### 4. Generación de la primera versión de una matriz *n-grama/documento*
 Vamos a procesar la colección de documentos correspondiente a los cotextos que contienen cada palabra objetivo, para así establecer un análisis de la frecuencia de  los `tokens` presentes en cada una de las instancias en análisis (revisaremos distintos _settings_ para generar matrices).
 ````
-corpus > process > task: raw processing > n-gram doc 
+corpus > process > task: raw processing > ngram-doc matrix 
 ````
 ----
