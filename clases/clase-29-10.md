@@ -22,7 +22,7 @@ corpus > pre-process > file resizing > split (regex, \n)
 ````
 
 ### 3. Extracción de etiquetas senseID
-Vamos a extraer desde el<a href="https://github.com/fredyrodrigors/damien-mpgi/blob/main/cara-data/cara-corpus.txt">corpus de «cara»</a> las etiquetas `senseID`, correspondientes a cada uno de los sentidos seleccionados para las palabras objetivo en la colección de documentos.
+Vamos a extraer desde el <a href="https://github.com/fredyrodrigors/damien-mpgi/blob/main/cara-data/cara-corpus.txt">corpus de «cara»</a> las etiquetas `senseID`, correspondientes a cada uno de los sentidos seleccionados para las palabras objetivo en la colección de documentos.
 
 ## Segundo paso: tareas de pre-procesamiento (parte 2)
 
