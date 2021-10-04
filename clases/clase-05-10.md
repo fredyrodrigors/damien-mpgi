@@ -43,7 +43,7 @@ corpus > process > task: raw processing > ngram-doc matrix
 
 Para obtener la versión final de nuestra matriz _n-grama/documento_ debemos incluir los sentidos correspondientes para cada una de las palabras objetivos presentes en la colección de documentos. Para lograr esto, incluiremos en la matriz una nueva columna con todos sentidos que fueron extraídos en un paso anterior, mediante la aplicación del comando de unión a la derecha (_join right_).
 ````
-corpus > pre-process > file resizing > join ( |right)
+corpus > pre-process > file resizing > join (right, separator |)
 ````
 
 ----
