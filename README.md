@@ -6,6 +6,7 @@ Llevaremos a cabo todas estas tareas de procesamiento utilizando el entorno info
 
 ## Clases y contenidos
 
-- [29 de octubre](clases/clase-29-10.md): caracterización del corpus y tareas de pre-procesamiento
+- [29 de septiembre](clases/clase-29-09.md): caracterización del corpus y tareas de pre-procesamiento
+- [05 de octubre](clases/clase-05-10.md): tareas de pre-procesamiento (continuación) y procesamiento 
 
 ----
