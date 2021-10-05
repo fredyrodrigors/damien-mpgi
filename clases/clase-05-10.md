@@ -15,7 +15,7 @@ corpus > process > task: raw processing > ngram-doc matrix
 
 ### 5. Generación de la segunda versión de una matriz *n-grama/documento*
 
-Vamos a procesar la colección de documentos correspondiente a los cotextos que contienen cada palabra objetivo, considerando los _settings_ seleccionados de acuerdo criterios de análisis definidos (incluyendo una lista de _stopwords_)
+Vamos a procesar la colección de documentos correspondiente a los cotextos que contienen cada palabra objetivo, considerando los _settings_,considerando los criterios de análisis que hemos definido (incluyendo una lista de _stopwords_)
 ````
 corpus > process > task: raw processing > ngram-doc matrix (stopwords [functional])
 ````
@@ -34,14 +34,14 @@ Vamos a preparar nuestra _startlist_ para poder utilizarla en la generación de 
 
 ### 7. Generación de la tercera versión de una matriz _n-grama/documento_
 
-Vamos a procesar la colección de documentos correspondiente a los cotextos que contienen cada palabra objetivo, considerando los _settings_ seleccionados de acuerdo criterios de análisis definidos (incluyendo nuestra _startlist_ dentro del archivo `.zip`)
+Vamos a procesar la colección de documentos correspondiente a los cotextos que contienen cada palabra objetivo, considerando los _settings_ seleccionados, y considerando los criterios de análisis que hemos definido (debemos incluir nuestra _startlist_ dentro del archivo `.zip`)
 ````
 corpus > process > task: raw processing > ngram-doc matrix 
 ````
 
 ### 8. Generación de la versión final de una matriz _n-grama/documento_ (filtrada y anotada)
 
-Para obtener la versión final de nuestra matriz _n-grama/documento_ debemos incluir los sentidos correspondientes para cada una de las palabras objetivos presentes en la colección de documentos. Para lograr esto, incluiremos en la matriz una nueva columna con todos sentidos que fueron extraídos en un paso anterior, mediante la aplicación del comando de unión a la derecha (_join right_).
+Para obtener la versión final de nuestra matriz _n-grama/documento_ debemos incluir los sentidos correspondientes a cada una de las palabras objetivos presentes en la colección de documentos. Para lograr esto, incluiremos en la matriz una nueva columna con todos sentidos que fueron extraídos en el paso (3), mediante la aplicación de un cambio de tamaño de archivo con el comando de unión a la derecha (_join right_).
 ````
 corpus > pre-process > file resizing > join (right, separator |)
 ````
