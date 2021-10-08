@@ -1,4 +1,4 @@
-# Miércoles 05 de octubre
+# Miércoles 06 de octubre
 
 ## Primer paso: tareas de pre-procesamiento (_CONTINUACIÓN_)
 
