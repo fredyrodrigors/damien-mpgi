@@ -8,5 +8,5 @@ Llevaremos a cabo todas estas tareas de procesamiento utilizando el entorno info
 
 - [29 de septiembre](clases/clase-29-09.md): caracterización del corpus y tareas de pre-procesamiento
 - [06 de octubre](clases/clase-06-10.md): tareas de pre-procesamiento (continuación) y procesamiento 
-
+- [13 de octubre](clases/clase-13-10.md): tareas de minería textual y evaluación 
 ----
