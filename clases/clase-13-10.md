@@ -4,7 +4,7 @@
 
 ### 9. Validación cruzada
 
-Vamos a generar automáticamente los datos de entrenamiento y de testeo para nuestro sistema de desambiguación léxica automática. Para eso, realizaremos una validación cruzada de las 120 instancias procesadas en la matriz _n-grama/documento_ filtrada y anotada; es decir, dividiremos de manera aleatoria los datos textuales en una cantidad determinada de grupos del mismo tamaño, considerando la columna _senseID_ como el atributo de clase. Entonces, generaremos dos _training sets_ y tres _test sets, cada uno con 60 instancias.
+Vamos a generar automáticamente los datos de entrenamiento y de testeo para nuestro sistema de desambiguación léxica automática. Para eso, realizaremos una validación cruzada de las 120 instancias procesadas en la matriz _n-grama/documento_ filtrada y anotada; es decir, dividiremos de manera aleatoria los datos textuales en una cantidad determinada de grupos del mismo tamaño, considerando la columna _senseID_ como el atributo de clase. Entonces, generaremos dos _training sets_ y dos _test sets_, cada uno con 60 instancias.
 ````
 evaluation > cross validation (settings: k-fold = 2)
 ````
