@@ -1,4 +1,4 @@
-# Miércoles 12 de octubre
+# Miércoles 13 de octubre
 
 ## Tercer paso: tareas de minería textual
 
@@ -6,7 +6,7 @@
 
 Vamos a generar automáticamente los datos de entrenamiento y de testeo para nuestro sistema de desambiguación léxica automática. Para eso, realizaremos una validación cruzada de las 120 instancias procesadas en la matriz _n-grama/documento_ filtrada y anotada; es decir, dividiremos de manera aleatoria los datos textuales en una cantidad determinada de grupos del mismo tamaño, considerando la columna _senseID_ como el atributo de clase. Entonces, generaremos tres _training sets_ y tres _test sets, cada uno con 40 instancias.
 ````
-evaluation > cross validation (settings: k-fold = 3)
+evaluation > cross validation (settings: k-fold = 2)
 ````
 
 ### 10. Aplicación del algoritmo bayesiano ingenuo
