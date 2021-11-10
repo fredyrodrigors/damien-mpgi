@@ -1,6 +1,6 @@
 # Miércoles 13 de octubre
 
-## Tercer paso: tareas de minería textual
+## Tercer paso: tareas de minería textual y PLN
 
 ### 9. Validación cruzada
 
